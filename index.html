@@ -10,23 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
     <div id="website">
         <header>
             <h1>Lista de Tarefas</h1>
             <button type="button">Adicionar Tarefa</button>
         </header>
-        <form>
-            <h2>Inserir a Tarefa</h2>
-            <input type="text" id="nome-tarefa-nova" required placeholder="Nome da Tarefa">
-            <button type="submit">Adicionar</button>
-            <button id="botao-cancelar" type="reset">Cancelar</button>
-        </form>
-        <ul>
-            <li>Organizar a casa</li>
-            <li>Organizar a casa</li>
-            <li>Organizar a casa</li>
-        </ul>
+        <div id="conteudo">
+            <form>
+                <h2>Inserir a Tarefa</h2>
+                <input type="text" id="nome-tarefa-nova" required placeholder="Nome da Tarefa">
+                <button type="submit">Adicionar</button>
+                <button id="botao-cancelar" type="reset">Cancelar</button>
+            </form>
+            <ul>
+                <li class="itensTarefa">Organizar a casa</li>
+                <li class="itensTarefa">Organizar a casa</li>
+                <li class="itensTarefa">Organizar a casa</li>
+            </ul>
+        </div>
         <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
         <script src="./main.js"></script>
     </div>
